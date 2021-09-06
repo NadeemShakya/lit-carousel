@@ -46,8 +46,7 @@ export class MyElement extends LitElement {
 
   render() {
     return html`
-      Phase 0 
-      Phase 1 WIP
+      
       <h1>Hello, ${this.name}!</h1>
       <button @click=${this._onClick} part="button">
         Click Count: ${this.count}
